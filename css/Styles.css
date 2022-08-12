@@ -2,6 +2,61 @@
 осн.цвет фона #F5F5F5
 вторичный фон #F5F4FA
 фон футер #2F303A
+фон хэдэра #FFFFFF
 
+заглавия #212121
+текст #757575
+акцент #FFFFFF
+футер контакты rgba(255, 255, 255, 0.6)
+ховер 2196F3
 */
 
+:root {--title-text-color: #212121;
+        --hover-tet-color: #2196F3;
+        --primary-bcg-color: #F5F5F5;}
+body {
+    background-color: var(--primary-bcg-color);
+    color: #757575;}
+
+.list {list-style: none;}
+
+.logo {color: #000000;}
+
+.web {color: var(--hover-tet-color);}
+
+.site-nav .link{
+    color: var(--title-text-color);}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hover-tet-color);}
+
+.section-title {color: var(--title-text-color);}
+
+.feature .title {
+    color: var(--title-text-color);}
+
+.team .title {
+    color: var(--title-text-color);}
+
+.examples .title {
+    color: var(--title-text-color);}
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-bcg-color);}
+
+.button.primary {
+    color: #ffffff;
+    background-color: var(--hover-tet-color);
+    border-color: var(--hover-tet-color);}
+
+.button.secondary { 
+    color: var(--title-text-color);
+    background-color: #F5F4FA;}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--primary-bcg-color);
+    background-color: var(--hover-tet-color);
+    border-color: var(--hover-tet-color);}
