@@ -16,31 +16,136 @@
         --primary-bcg-color: #F5F5F5;}
 body {
     background-color: var(--primary-bcg-color);
-    color: #757575;}
+    color: #757575;
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.7;}
 
 .list {list-style: none;}
 
-.logo {color: #000000;}
+/* head  */
+
+.logo {color: #000000;
+        font-family: raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;}
 
 .web {color: var(--hover-tet-color);}
 
 .site-nav .link{
-    color: var(--title-text-color);}
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
 
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--hover-tet-color);}
 
-.section-title {color: var(--title-text-color);}
+.head-contact {
+    color:#757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.head-contact:hover,
+.head-contact:focus {
+    color: var(--hover-tet-color)
+}
+
+/* hero  */
+.hero {    
+    background-color: #2F303A;} 
+/* временно */
+
+.hero-title { 
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;}
+
+.hero .button {    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.06em;}
+
+/* переваги  */
 
 .feature .title {
-    color: var(--title-text-color);}
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;}
+
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+/* команда */
+.team-bcg {background-color: #F5F0FA;}
 
 .team .title {
-    color: var(--title-text-color);}
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.team .job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
 
 .examples .title {
-    color: var(--title-text-color);}
+    color: var(--title-text-color);
+}
+
+/* footer */
+
+.foot {background-color: #2F303A;}
+
+.foot .logo-foot {
+    color: var(--primary-bcg-color);
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;}
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.address-foot {
+    color: var(--primary-bcg-color);
+}
+
+.contact-foot {
+    color: rgba(255, 255, 255, 0.6);}
+
+/* кнопки */
 
 .button {
     color: var(--title-text-color);
