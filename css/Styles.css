@@ -131,6 +131,13 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;}
 
+.address .contact-foot:hover,
+.address .contact-foot:focus,
+.address .address-foot:hover,
+.address .address-foot:focus {
+    color: var(--hover-tet-color);
+}
+
 .address {
     font-style: normal;
     font-weight: 400;
